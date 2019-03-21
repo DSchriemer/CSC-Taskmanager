@@ -22,6 +22,10 @@ ul li {
   background: #cccccc;
   font-size: 18px;
 
+  padding: 12px 8px 12px 40px;
+
+  margin-top: 10px;
+
   list-style-type: none;
 }
 
