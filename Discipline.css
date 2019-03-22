@@ -19,18 +19,20 @@ ul li {
   cursor: pointer; /*Pointer cursor on hover*/
   position: relative;
 
-  background: #cccccc;
+
   font-size: 18px;
 
   padding: 12px 8px 12px 40px;
 
   margin-top: 10px;
+  border-style: solid;
 
   list-style-type: none;
 }
 
 ul li:hover {
-  background: #ddd;
+  border-color: red;
+  color: red;
 }
 
 ul li.list_title {
@@ -50,7 +52,6 @@ h2 {
 }
 
 ul li.checked {
-  background: #888;
-  background: #cccccc;
+border-color: red;
   text-decoration: line-through;
 }
